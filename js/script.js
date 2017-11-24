@@ -14,6 +14,4 @@ function getJoke() {
     });
     xhr.send();
 };
-window.onload = function() {
-    getJoke();
-};
+window.onload = getJoke();
